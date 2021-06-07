@@ -7,7 +7,7 @@ app.use(express.json())
 app.use("/api", router)
 
 mongoose
-    .connect("mongodb://subscriptionsapi.netlify.app/subscribers_db", { useNewUrlParser: true, useUnifiedTopology: true})
+    .connect("mongodb://subscriptionsapi.netlify.app:27017/subscribers_db", { useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
         app.listen(5000, () => {
             console.log("Server has started!")
