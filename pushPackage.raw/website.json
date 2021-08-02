@@ -1,0 +1,8 @@
+{
+    "websiteName": "Safari Push",
+    "websitePushID": "web.app.netlify.webpush",
+    "allowedDomains": ["http://safaripush.netlify.app", "https://safaripush.netlify.app"],
+    "urlFormatString": "http://safaripush.netlify.app/%@",
+    "authenticationToken": "{AUTHTOKEN}",
+    "webServiceURL": "https://5346ccd2867a.ngrok.io"
+}
